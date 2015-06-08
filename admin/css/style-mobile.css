@@ -1,0 +1,94 @@
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select
+	{
+		font-size: 1em;
+	}
+
+	#label_formulario { font-size:1em; font-weight:normal; }
+	
+	
+
+	h2
+	{
+		font-size: 1.5em;
+		letter-spacing: 0;
+		font-weight: 300;
+	}
+
+	.container
+	{
+		padding: 0 15px 0 15px;
+	}
+
+#header
+{
+	width:80%;
+	
+	
+	
+}
+
+
+	.image.featured
+	{
+		position: relative;
+		min-height: 10em;
+		overflow: hidden;
+	}
+	
+		.image.featured img
+		{
+			position: relative;
+			height: 10em;
+			width: auto;
+			/*
+				Stuff below is automatically calculated using JS. It sucks, but there
+				doesn't appear to be a way to center the <img> inside its parent with
+				pure CSS (since we don't know its width).
+			
+				left: 0;
+				margin-left: 0;
+			*/
+		}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main 	{	}
+	
+		#main > section		{			padding: 2em 0 2em 0;		}
+		
+/*******************************************************************************/
+#manos { width: 100%; }
+
+
+#foto_perfil { width:100%;}
+#imagen_anuncio_propio  { width:100%;}
+
+.button 	{ width:45%;  margin:0.25em;}
+
+#menu_horizontal { margin: 3em 0em 0em 0em;}
+#imagen_usuarios  { width:100%;}
+
+#imagen_anuncio   { width:100%;}
+
+#boton2 { font-size:1em; width:100%;}
+
+.button { width:90%; }
+
+
+#menu_normal
+{
+	display:none;
+	
+}
+
+#menu_movil
+{
+	display:block;
+}

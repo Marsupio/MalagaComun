@@ -1,0 +1,49 @@
+/* {margin:0; padding:0; outline:0}*/
+/*body {font:11px Verdana,Arial; margin:25px; background:#fff url(images/bg.gif) repeat-x}*/
+
+#tablewrapper {width:100%; margin:0 auto}
+#tableheader {}
+
+.search { width:100%; float:left; border:1px solid #c6d5e1; background:#597D98; font-size:1em; color:white; text-align:center; font-weight:bold; text-shadow:1px 1px 1px black; padding:1em;}
+
+#tableheader select {float:left; font-size:1em; width:100%; padding:2px 4px 4px}
+#tableheader input {float:left; font-size:1em; width:100%; padding:2px 4px 4px;}
+
+.details {width:100%;  float:right; padding-top:12px; background:#597D98; font-size:1em; color:white; text-align:center; font-weight:bold; text-shadow:1px 1px 1px black; padding:1em;}
+.details div {float:left; margin-left:1em}
+
+.tinytable {width:100%; border:1px solid #c6d5e1; margin:0; border:0; padding:0; text-align:left; }
+
+.tinytable th { background-color:#597D98;  text-align:left; color:#cfdce7; border:1px solid #fff; }
+.tinytable th h3 {font-size:1em; padding:0em; color:white; text-align:left; font-weight:bold; text-shadow:1px 1px 1px black;}
+
+.tinytable td {padding:0em 0em 0.75em 0.75em; border-bottom:1px solid #c6d5e1; border-right:1px solid #c6d5e1}
+
+.tinytable .head h3 {background:url('images/sort.gif') 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .desc, .sortable .asc {background:url('images/header-selected-bg.gif')}
+.tinytable .desc h3 {background:url('images/desc.gif') 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .asc h3 {background:url('images/asc.gif') 7px  center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .head:hover, .tinytable .desc:hover, .tinytable .asc:hover {color:#fff}
+.tinytable .evenrow td {background:#fff}
+.tinytable .oddrow td {background:#ecf2f6}
+.tinytable td.evenselected {background:#ecf2f6}
+.tinytable td.oddselected {background:#dce6ee}
+.tinytable tfoot {background:#fff; font-weight:bold}
+.tinytable tfoot td {padding:6px 8px 8px}
+
+#tablefooter { padding-top: 1em; }
+
+#tablenav { width:100%; float:left;  font-size:1em; color:grey; text-align:center; font-weight:bold; }
+#tablenav img {cursor:pointer; }
+#tablenav div { text-align:center;}
+#tablenav select {margin-right:0.5em; font-size:1em;}
+
+
+#tablelocation { width:100%;   float:right; font-size:1em; color:grey; text-align:center; font-weight:bold;  }
+#tablelocation select {margin-right:0.5em; font-size:1em;}
+#tablelocation div {text-align:center;}
+
+.page {width:100%;   font-size:1em; color:grey; text-align:center; font-weight:bold; }
+.ver_todos {width:100%;   font-size:1em; color:grey; text-align:center; font-weight:bold; }
+
+#selectedrow td {background:#c6d5e1}

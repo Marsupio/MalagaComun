@@ -1,0 +1,63 @@
+
+/* TABLÓN DE ANUNCIOS */
+
+ul#tablon, ul#tablon ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul#tablon a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul#tablon li {
+/*
+  margin: 0.1em 0em;;
+  
+
+   border-top: 1px grey solid;
+   border-bottom:1px black solid;
+   
+   border-left: 1px grey solid;
+   border-right:1px black solid;   
+*/
+}
+ul#tablon li a {
+ /* background: #4F7088;*/
+ background-color:transparent;
+  text-align:left;
+  color: #803192;	
+  padding: 0.5em 1em;
+  /*text-shadow:2px 2px 2px black;*/
+  font-size:1.4em;
+  
+}
+
+
+ul#tablon li a:hover {
+	color: #9a55aa;
+	background: transparent;
+
+}
+
+ul#tablon li ul li a {
+  text-align: left;
+  background: transparent;
+  color: #999999;
+  font-size: 1.2em;
+  padding-left: 5em;
+  text-shadow:0px 0px 0px black;
+}
+
+ul#tablon li ul li a:hover,ul#tablon li ul .current a {
+  text-align: left;
+  background: transparent;
+  /*border-left: 0.5em black solid;*/
+  padding-left: 5em;
+  /*text-shadow:0px 0px 0px black;*/
+  color:black;
+}
+

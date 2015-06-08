@@ -1,0 +1,1 @@
+﻿<?php header("Location: que_es.php"); ?>

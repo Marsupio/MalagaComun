@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+/**********************************************************************/
+#bg_ventana_modal {
+	
+	background-image:url(../imagenes/bgModal.png);
+	position:fixed;
+	z-index:5;
+	height:100%;
+	width:100%;
+	left:0px;
+	top:0px;
+	display:none;
+}
+
+#ventana_modal {
+	
+	float:left;
+
+	background-color:#000;
+	border:8px solid #000;
+	position: absolute;
+	margin: 0 auto;
+	
+	height: 70%;
+	width: 58%;
+	
+	display:none;
+
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	-webkit-border-radius:20px; 										
+	-moz-border-radius: 20px 20px 20px 20px;   	
+	border-radius: 20px;						
+	
+	-webkit-box-shadow: #333 3px 3px 10px;		
+ 	-moz-box-shadow: #333 3px 3px 10px;
+ 	box-shadow: #333 3px 3px 10px;
+
+}
+
+#muestra
+{
+	cursor:normal;	
+	outline:none; 
+	border:0px;	
+}
+
+
+#boton_cerrar
+{
+	border:0px;
+	
+	width: 3em;
+	height: 3em;
+	
+	cursor:pointer;
+	
+}
+
+#boton_aleatorio
+{
+	border:0px;
+	
+	width: 3em;
+	height: 3em;
+	
+	cursor:pointer;
+	
+}
+
+#boton_anterior
+{
+	border:0px;
+	
+	width: 3em;
+	height: 3em;
+	
+	cursor:pointer;
+	
+}
+
+#boton_siguiente
+{
+	border:0px;
+	
+	width: 3em;
+	height: 3em;
+	
+	cursor:pointer;
+}
+
+#controles_ventana_modal_superior_izquierda {
+	
+	float:left;	
+	background-color: transparent;
+	text-align:left;
+	
+	height:3em;
+	width:40%;
+	top:0%;
+	
+}
+
+#controles_ventana_modal_superior_derecha {
+	
+	float:right;	
+	background-color: transparent;
+	text-align:right;
+	
+	height:3em;
+	width:40%;
+	top:0%;
+	
+}
+
+#controles_ventana_modal_inferior_anterior {
+	
+	clear:both;	
+	float:left;
+	background-color: transparent;
+	
+	height:3em;	
+	width:40%;
+	
+	text-align:left;
+	
+	position:relative;
+	top:80%;
+	
+
+}
+
+#controles_ventana_modal_inferior_siguiente {
+	
+	float:right;
+	background-color: transparent;
+	
+	height:3em;
+	width:40%;
+	
+	text-align:right;
+
+	position:relative;
+	top:80%;
+	
+	
+	
+}
+
+@media (min-width: 480px) and (max-width: 767px) 
+{
+	
+#mini
+{
+	width: 45%;
+}
+
+}
+
+@media (min-width: 0px) and (max-width: 479px) 
+{
+	
+#mini
+{
+	width:90%;
+}	
+
+#controles_ventana_modal_inferior_anterior 
+{
+	top:78%;
+}
+
+#controles_ventana_modal_inferior_siguiente 
+{
+	top:78%;	
+}	
+	
+	
+}
+/**********************************************************************/

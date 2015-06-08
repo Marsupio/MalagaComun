@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+/************************************************/
+#tabla_calendario 
+{
+		overflow:hidden;
+		border:0px solid #000;
+		background-color:#FFd;		
+		width:90%;
+		margin:0 auto;
+		text-align:center;
+		border-collapse:collapse;	
+		
+		-moz-border-radius:8px; 
+		-webkit-border-radius:8px; 
+		border-radius:8px;
+		
+		-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+		-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+
+#tabla_calendario th 
+{
+padding:5px; 
+text-align:center; 
+border:0;	
+padding-top:10px; 
+text-shadow: 1px 1px 1px #000; 
+background:#369;
+color:#fff;	
+}
+
+
+#tabla_calendario td 
+{
+padding:2px; 
+text-align:center; 
+border:0;	
+border-bottom:1px solid #e0e0e0; 
+border-right:1px solid #e0e0e0;
+	
+}
+/*************************************************************************************/
+#dia_marcado_calendario
+{
+		background-color:#9CC;
+		color:#000;
+		cursor:default;
+		font-weight:bolder;
+		border:solid 2px #000;
+		
+		background: -moz-linear-gradient(100% 100% 90deg, #fff, #59b);
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#59b));			
+}
+/*************************************************************************************/
+
